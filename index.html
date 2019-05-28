@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="sakura,draggable,javascript">
+    <meta name="description" content="sakura，一个痴迷的野生前端程序猿">
+    <title>拖动图片</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="imgbox" id="imgbox">
+        <img src="imgs/xiamulingzi.png" alt="夏目玲子" id="dragPicture" class="fit" onmousedown="dragContainerMouseDown(event)"/>
+    </div>
+    <button onclick="showOrigin()" class="btn" id="btnShowOrigin">显示原图</button>
+    <button onclick="fitSize()" class="btn" id="btnFitSize">适应大小</button>
+    <script src="js/index.js"></script>
+</body>
+</html>
